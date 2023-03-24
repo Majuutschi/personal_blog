@@ -1,6 +1,7 @@
 @import './colors.css';
 @import './text.css';
-@import './buttons.css';
+@import './nav.css';
+@import './cards.css';
 
 /* 
   flexbox at least 2 times
@@ -9,22 +10,18 @@
   mobile, tablet, desktop
 */
 
-html, body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  padding: 1rem 4rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+body {
+  min-height: 100vh;
 }
 
-.nav-links {
-  display: flex;
-}
-
-.nav-link {
-  margin: 0 1rem;
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 2rem;
 }

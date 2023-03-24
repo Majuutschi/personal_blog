@@ -14,14 +14,17 @@ body {
 
 h1 {
   font-family: 'Prompt', sans-serif;
+  font-weight: bold;
 }
 
 h2 {
   font-family: 'Prompt', sans-serif;
+  text-decoration: underline;
 }
 
 h3 {
   font-family: 'Prompt', sans-serif;
+  font-style: italic;
 }
 
 ul {

@@ -1,0 +1,20 @@
+.grid-container {
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #fff;
+  box-shadow: 1px 1px 8px 1px #b5afaf;
+}
+
+.card:hover {
+  box-shadow: 1px 1px 10px 3px #c2b6b6;
+}
+
+.card-content {
+
+}
