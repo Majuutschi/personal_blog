@@ -1,0 +1,15 @@
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 2rem;
+  border-radius: 8px;
+}
+
+.read-btn {
+  background-color: #641c00;
+  color: azure;
+  border: none;
+}
+
+.read-btn:hover {
+  background-color: #da687b;
+}

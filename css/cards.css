@@ -16,5 +16,13 @@
 }
 
 .card-content {
+  color: #484444;
+}
 
+.card-content:hover {
+  color: #171515;
+}
+
+.card-preview {
+  font-style: italic;
 }
