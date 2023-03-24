@@ -2,8 +2,29 @@
 @import './text.css';
 @import './buttons.css';
 
+/* 
+  flexbox at least 2 times
+  grid at least 2 times
+
+  mobile, tablet, desktop
+*/
 
 html, body {
   margin: 0;
   padding: 0;
+}
+
+header {
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 1rem;
 }
