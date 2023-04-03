@@ -52,3 +52,13 @@ button {
 .page-title {
   font-size: 1.5rem;
 }
+
+.post-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.blog-post {
+  padding: 1rem;
+}

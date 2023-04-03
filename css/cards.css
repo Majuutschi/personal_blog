@@ -26,3 +26,12 @@
 .card-preview {
   font-style: italic;
 }
+
+.post-img-container {
+  width: 100%;
+}
+
+.post-img-container img {
+  width: 100%;
+  border-radius: 8px;
+}

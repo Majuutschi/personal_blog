@@ -2,6 +2,7 @@ button {
   margin-top: 1rem;
   padding: 0.5rem 2rem;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .read-btn {
