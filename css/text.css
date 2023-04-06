@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap');
 
-/* minimum: 
-  - h1, h2, h3 
-  - p: bold, italic, underlined
-  - links
-  - quotes
-*/
 
 body {
   font-family: 'Oxygen', sans-serif;
@@ -14,12 +8,12 @@ body {
 
 h1 {
   font-family: 'Prompt', sans-serif;
-  font-size: 2.2rem;
+  font-size: 1.5rem;
 }
 
 h2 {
   font-family: 'Prompt', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.4rem;
 }
 
 h3 {
@@ -49,18 +43,140 @@ button {
 
 .right {
   text-align: right;
+  font-style: italic;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .page-title {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 
-.post-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
+.blog-intro {
+  text-decoration: underline;
+  margin: 1rem 0;
 }
 
 .blog-post {
-  padding: 1rem;
+  padding: 1rem 0;
+}
+
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.2rem;
+  }
+  
+  h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: #642800;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #fa798e;
+  }
+  
+  button {
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .right {
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .blog-intro {
+    text-decoration: underline;
+    margin: 1rem;
+  }
+  
+  .blog-post {
+    padding: 1rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  h1 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 2.2rem;
+  }
+  
+  h2 {
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.8rem;
+  }
+  
+  h3 {
+    font-family: 'Prompt', sans-serif;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  a {
+    color: #642800;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  a:hover {
+    color: #fa798e;
+  }
+  
+  button {
+    font-family: 'Oxygen', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+  }
+  
+  .right {
+    text-align: right;
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .blog-intro {
+    text-decoration: underline;
+    margin: 1rem;
+  }
+  
+  .blog-post {
+    padding: 1rem;
+  }
 }

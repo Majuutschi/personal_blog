@@ -14,3 +14,11 @@ button {
 .read-btn:hover {
   background-color: #da687b;
 }
+
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 992px) {
+
+}

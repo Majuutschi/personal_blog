@@ -3,13 +3,6 @@
 @import './nav.css';
 @import './cards.css';
 
-/* 
-  flexbox at least 2 times
-  grid at least 2 times
-
-  mobile, tablet, desktop
-*/
-
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +14,46 @@ body {
 }
 
 .container {
-  width: 80%;
+  width: 95%;
   margin: auto;
   padding: 2rem;
 }
+
+.welcome-image-container {
+  width: 100%;
+}
+
+.welcome-image {
+  width: 100%;
+}
+
+.post-container {
+  display: block;
+}
+
+.blog-post-img-container {
+  width: 100%;
+}
+
+.blog-post-img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+  
+  .post-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
