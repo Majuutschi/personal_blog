@@ -4,18 +4,18 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <title>My Personal Blog - Post</title>
     </head>
     <body>
       <header>
-        <a class="page-title" href="./index.html">My Personal Blog</a>
-        <nav>
+        <div class="nav-container">
+          <a class="page-title" href="./index.html">My Personal Blog</a>
             <ul class="nav-links">
                 <li class="nav-link"><a href="./index.html">Home</a></li>
                 <li class="nav-link"><a href="./post.html">Blog Posts</a></li>
-            </ul>
-        </nav>
+            </ul>  
+        </div>
       </header>
       <section class="blog-page">
         <div class="container">
@@ -52,5 +52,29 @@
           </div>
         </div>
       </section>
+      <aside class="author">
+        <div class="container">
+          <h2>Author information</h2>
+          <div class="author-container">
+            <div class="author-img-container">
+              <img class="author-img" src="./images/author.jpg" alt="">
+            </div>
+            <div class="author-info">
+              <h3>Jane Doe</h3>
+              <p class="italic">Freelance blogger</p>
+              <p>Lorem ipsum dolor sit amet consectetur nostrum eum adipisicing elit. Nisi, quibusdam omnis cum repellendus expedita voluptatem nemo fugit dolore dolores dolorem?</p>
+              <p>Adipisicing elit. Voluptates, accusamus! Porro obcaecati incidunt laboriosam dolor maiores earum magni laudantium mollitia.</p>
+            </div>
+          </div>
+        </div>
+      </aside>
+      <footer>
+        <p class="follow-social">Follow me on social media:</p>
+        <ul class="social">
+            <li class="social-icon"><a href="www.facebook.com"><i class="fa-brands fa-facebook"></i></a></li>
+            <li class="social-icon"><a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li class="social-icon"><a href="www.linkedin.com"><i class="fa-brands fa-linkedin"></i></a></li>
+        </ul>
+    </footer>
     </body>
 </html>

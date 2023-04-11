@@ -39,6 +39,14 @@ body {
   width: 100%;
 }
 
+.author-img-container {
+  width: 100%;
+}
+
+.author-img {
+  width: 100%;
+}
+
 @media only screen and (min-width: 768px) {
   .container {
     width: 90%;
@@ -60,6 +68,21 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
+  }
+
+  .author-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .author-img-container {
+    padding: 1rem;
+  }
+
+  .author-info {
+    padding: 1rem;
   }
 }
 

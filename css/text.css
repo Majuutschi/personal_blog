@@ -14,6 +14,7 @@ h1 {
 h2 {
   font-family: 'Prompt', sans-serif;
   font-size: 1.4rem;
+  text-align: center;
 }
 
 h3 {
@@ -48,6 +49,10 @@ button {
 
 .bold {
   font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .page-title {
