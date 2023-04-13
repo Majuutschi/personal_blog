@@ -42,6 +42,12 @@ button {
   font-size: 0.9rem;
 }
 
+figcaption {
+  text-align: center;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
 .right {
   text-align: right;
   font-style: italic;
